@@ -2,6 +2,10 @@
 
 A ROS 2 project where a main turtle autonomously detects, selects, and catches spawned turtles using custom ROS 2 messages and services.
 
+## Demo
+
+![Turtlesim Catch Them All Demo](media/turtlesim_demo.gif)
+
 ## Features
 
 * Automatic turtle spawning at random positions.
@@ -193,6 +197,10 @@ The launch file starts:
 
 ```text
 turtle_ws/
+├── README.md
+├── .gitignore
+├── media/
+│   └── turtlesim_demo.gif
 └── src/
     ├── turtle_interfaces/
     │   ├── msg/
@@ -248,3 +256,4 @@ This project demonstrates practical ROS 2 concepts including:
 ## License
 
 This project is intended for educational and robotics development purposes.
+
